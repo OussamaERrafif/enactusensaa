@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Club Name Website
 
 Welcome to the official website of the **[Club Name]**!
@@ -60,3 +61,6 @@ If you'd like to support our club's mission and activities, consider making a do
 Thank you for visiting our website! We look forward to welcoming you to the [Club Name] community. Explore our website to learn more about what we do and how you can get involved.
 
 [Follow us on Facebook](https://www.facebook.com/YourClub) | [Follow us on Twitter](https://twitter.com/YourClub) | [Instagram](https://www.instagram.com/YourClub)
+=======
+
+>>>>>>> cc4807b393c25a84837c6dc3313e5c393886fc65
