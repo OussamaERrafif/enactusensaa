@@ -1,5 +1,6 @@
 import Button from './components/Button';
 import Card from './components/Card';
+import Navbar from './Sections/Main'
 
 const App = () => {
   const cards = [
@@ -31,9 +32,7 @@ const App = () => {
 
   return (
     <div className="bg-gray-100 min-h-screen">
-      <div className="bg-yellow-500 py-8">
-        <h1 className="text-3xl font-bold text-white text-center">My Cards</h1>
-      </div>
+      <Navbar />
       <div className="max-w-6xl mx-auto px-4 py-8 flex flex-wrap justify-center">
         {cards.map((card) => (
           <div key={card.title} className="w-full sm:w-1/2 md:w-1/3 p-4">
@@ -42,7 +41,7 @@ const App = () => {
         ))}
       </div>
       <div className="flex justify-center pb-8">
-        <Button text="View More" className="bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 active:translate-y-0" />
+        <Button text="See More"  />
       </div>
     </div>
   );
