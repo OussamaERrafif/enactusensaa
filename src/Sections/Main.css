@@ -1,9 +1,9 @@
-a {
+.ili {
     position: relative;
     text-decoration: none;
   }
   
-  a::after {
+  .ili::after {
     content: '';
     position: absolute;
     bottom: -2px;
@@ -16,7 +16,7 @@ a {
     transition: transform 0.3s ease;
   }
   
-  a:hover::after {
+  .ili:hover::after {
     transform: scaleX(1);
   }
   button {

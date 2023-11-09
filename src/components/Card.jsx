@@ -4,8 +4,12 @@ const Card = ({ title, description, donationAmount, donationGoal, tags, imageUrl
   const progress = Math.floor((donationAmount / donationGoal) * 100);
 
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg transition-all duration-500 ease-in-out transform hover:scale-105">
-      <img className="w-full h-32 object-cover" src={imageUrl} alt={title} />
+    <div className="max-w-sm rounded overflow-hidden shadow-lg transition-transform duration-500 ease-in-out hover:scale-105">
+      <img
+        className="w-full h-32 object-cover transition-transform duration-500 ease-in-out hover:scale-110"
+        src={imageUrl}
+        alt={title}
+      />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2 text-center">{title}</div>
         <p className="text-gray-700 text-base">{description}</p>

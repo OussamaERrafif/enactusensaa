@@ -28,7 +28,7 @@ const App = () => {
       <div className="max-w-6xl mx-auto px-4 py-8 flex flex-wrap justify-center">
         {cards.map((card) => (
           <div key={card.title} className="w-full sm:w-1/2 md:w-1/3 p-4">
-            <Card {...card} />
+            <a className='cardlink' href='/#'><Card {...card} /></a>
           </div>
         ))}
       </div>
