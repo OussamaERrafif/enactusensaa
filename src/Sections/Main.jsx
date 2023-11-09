@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './Main.css';
 
 function Navbar() {
     const [navbar, setNavbar] = useState(false);
@@ -8,8 +9,8 @@ function Navbar() {
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                        <a href="javascript:void(0)">
-                            <h2 className="text-2xl font-bold">LOGO</h2>
+                        <a href="/#">
+                            <img src={require('../imgs/enactus.png')} className="text-2xl font-bold" width="50" height="100" />
                         </a>
                         <div className="md:hidden">
                             <button
@@ -56,16 +57,19 @@ function Navbar() {
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-gray-600 hover:text-blue-600">
+                            <li className="text-gray-600 hover:text-yellow-600">
                                 <a href="javascript:void(0)">Home</a>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600">
-                                <a href="javascript:void(0)">Blog</a>
+                            <li className="text-gray-600 hover:text-yellow-600">
+                                <a href="javascript:void(0)">Events</a>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600">
-                                <a href="javascript:void(0)">About US</a>
+                            <li className="text-gray-600 hover:text-yellow-600">
+                                <a href="javascript:void(0)">Team</a>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600">
+                            <li className="text-gray-600 hover:text-yellow-600">
+                                <a href="javascript:void(0)">Our Projects</a>
+                            </li>
+                            <li className="text-gray-600 hover:text-yellow-600">
                                 <a href="javascript:void(0)">Contact US</a>
                             </li>
                         </ul>
