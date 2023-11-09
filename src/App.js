@@ -5,7 +5,7 @@ import Navbar from './Sections/Main'
 const App = () => {
   const cards = [
     {
-      imageSrc: './imgs/img1.jpg',
+      imageUrl: require('./imgs/enactusa.jpg'),
       title: 'Card 1',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien vel bibendum bibendum, velit sapien bibendum sapien, vel bibendum sapien sapien vel bibendum bibendum.',
       tags: ['tag1', 'tag2', 'tag3'],
@@ -13,19 +13,11 @@ const App = () => {
       donationGoal: 100,
     },
     {
-      imageSrc: './imgs/download.png',
+      imageUrl: require('./imgs/enactust.jpg'),
       title: 'Card 2',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien vel bibendum bibendum, velit sapien bibendum sapien, vel bibendum sapien sapien vel bibendum bibendum.',
       tags: ['tag1', 'tag2', 'tag3'],
       donationAmount: 50,
-      donationGoal: 100,
-    },
-    {
-      imageSrc: './imgs/download.png',
-      title: 'Card 3',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien vel bibendum bibendum, velit sapien bibendum sapien, vel bibendum sapien sapien vel bibendum bibendum.',
-      tags: ['tag1', 'tag2', 'tag3'],
-      donationAmount: 80,
       donationGoal: 100,
     },
   ];
